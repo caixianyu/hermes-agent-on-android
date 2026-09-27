@@ -13,8 +13,13 @@
 3. **自动恢复预配置** — 开箱即用，初始化配置一键还原
 
 > 全程图形化引导，不需要任何命令行或技术基础。
-
+![应用截图](./assets/install.jpg)
+![应用截图](./assets/startserver.jpg)
+![应用截图](./assets/startserver1.jpg)
 内置 **gemini-3.6-flash** 无限量调用，**新用户免费试用 3 天**。同时预置了对接微信的 Skill（`/weixin-login`），一条指令即可完成微信登录绑定。
+> ![应用截图](./assets/1.jpg)
+![应用截图](./assets/2.jpg)
+![应用截图](./assets/3.jpg)
 
 ## 📱 使用流程
 
