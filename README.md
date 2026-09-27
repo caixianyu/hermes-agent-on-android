@@ -1,6 +1,6 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# 🚀 Pocket Hermes
+# 🚀 Hermes agent on android
 
 **One-click deployment of Hermes Agent on Android — designed for everyone, no tech skills required.**
 
