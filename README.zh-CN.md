@@ -1,8 +1,8 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# 🚀 Pocket Hermes
+# 🚀 Hermes agent on android
 
-**一键在安卓手机上部署 Hermes Agent，专为小白设计。**
+**一键在安卓手机上部署 Hermes Agent，开箱即用，微信个人助手。**
 
 ## ✨ 它能做什么？
 
