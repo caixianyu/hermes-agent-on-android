@@ -19,6 +19,10 @@ Comes with **unlimited gemini-3.6-flash** access, plus a **3-day free trial** fo
 ## 📱 How it works
 
 Download the APK → Install → Open the app → Follow the steps → Done 🎉
+![应用截图](./assets/install.jpg)
+![应用截图](./assets/startserver.jpg)
+![应用截图](./assets/startserver1.jpg)
+
 
 ## 💰 Pricing
 
@@ -32,6 +36,8 @@ A subscription is required to continue after the free trial ends:
 - Android 8.0 or later
 - ≥ 2GB free storage (recommended)
 - Internet connection (required to download dependencies during setup)
+
+
 
 ## 🚀 Quick Start
 
