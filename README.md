@@ -1,33 +1,40 @@
-# pocket-hermes
-One-click deployment of Hermes Agent on Android devices. No tech skills required — just install and run.
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 # 🚀 Pocket Hermes
 
-**一键在安卓手机上部署 Hermes Agent，专为小白设计。**
+**One-click deployment of Hermes Agent on Android — designed for everyone, no tech skills required.**
 
-> Deploy Hermes Agent on Android in one click. No tech skills needed.
+## ✨ What can it do?
 
-## ✨ 它能做什么？
+After installing the APK, simply follow the on-screen guide step by step:
 
-安装 APK 后，只需跟着页面引导，一步一步操作：
+1. **Auto-install Termux** — no manual setup required
+2. **Auto-deploy Hermes Agent** — fully installed inside Termux
+3. **Auto-restore preset config** — ready to use out of the box
 
-1. **自动安装 Termux** — 无需手动下载配置
-2. **自动部署 Hermes Agent** — 在 Termux 中完成全部安装
-3. **自动恢复预配置** — 开箱即用，初始化配置一键还原
+> A fully graphical setup — no command line or technical background needed.
 
-> 全程图形化引导，不需要任何命令行或技术基础。
+Comes with **unlimited gemini-3.6-flash** access, plus a **3-day free trial** for new users. A built-in WeChat integration Skill (`/weixin-login`) lets you link your WeChat account with a single command.
 
-## 📱 使用流程
+## 📱 How it works
 
-下载 APK → 安装 → 打开 APP → 按步骤点击 → 完成 🎉
+Download the APK → Install → Open the app → Follow the steps → Done 🎉
 
-## 🔧 系统要求
+## 💰 Pricing
 
-- Android 8.0 及以上
-- 存储空间 ≥ 2GB（建议）
-- 网络连接（安装过程需要下载依赖）
+A subscription is required to continue after the free trial ends:
 
-## 🚀 快速开始
+- **Users in China**: ¥10/month, purchase at [hanhanhu.cn](http://hanhanhu.cn) (Alipay & WeChat Pay supported), get your registration code after payment
+- **International users**: Please subscribe via the Google Play Store
 
-1. 前往 [Releases](../../releases) 下载最新 APK
-2. 允许"安装未知来源应用"
-3. 打开 APP，跟随引导完成部署
+## 🔧 Requirements
+
+- Android 8.0 or later
+- ≥ 2GB free storage (recommended)
+- Internet connection (required to download dependencies during setup)
+
+## 🚀 Quick Start
+
+1. Go to [Releases](../../releases) and download the latest APK
+2. Allow "Install from unknown sources"
+3. Open the app and follow the guide to complete setup — enjoy a 3-day free trial
