@@ -8,8 +8,8 @@
 
 After installing the APK, simply follow the on-screen guide step by step:
 
-1. **Auto-install Termux** — no manual setup required
-2. **Auto-deploy Hermes Agent** — fully installed inside Termux
+1. **Auto-install ubuntu** — no manual setup required
+2. **Auto-deploy Hermes Agent** — fully installed inside ubuntu
 3. **Auto-restore preset config** — ready to use out of the box
 
 > A fully graphical setup — no command line or technical background needed.
