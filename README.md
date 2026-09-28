@@ -29,7 +29,7 @@ Download the APK → Install → Open the app → Follow the steps → Done 🎉
 A subscription is required to continue after the free trial ends:
 
 - **Users in China**: ¥10/month, purchase at [hanhanhu.cn](http://hanhanhu.cn) (Alipay & WeChat Pay supported), get your registration code after payment
-- **International users**: Please subscribe via the Google Play Store
+- **International users**: Please subscribe via the Google Play Store：https://play.google.com/store/apps/details?id=com.hermes.installer
 
 ## 🔧 Requirements
 
