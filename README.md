@@ -19,9 +19,9 @@ Comes with **unlimited gemini-3.6-flash** access, plus a **3-day free trial** fo
 ## 📱 How it works
 
 Download the APK → Install → Open the app → Follow the steps → Done 🎉
-![应用截图](./assets/install.jpg)
-![应用截图](./assets/startserver.jpg)
-![应用截图](./assets/1.jpg)
+![应用截图](./c.jpg)
+![应用截图](./d.jpg)
+
 
 
 ## 💰 Pricing
