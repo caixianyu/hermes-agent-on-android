@@ -1,42 +1,49 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# 🚀 Hermes agent on android
+# Hermes Agent on Android
 
-**一键在安卓手机上部署 Hermes Agent，开箱即用，微信个人助手。**
+**把你的安卓手机变成一台常驻 AI Agent —— 无需 root、无需命令行、零技术门槛。**
 
-## ✨ 它能做什么？
+一个 APK 在独立的 proot 沙箱里装好 Ubuntu 和 Hermes Agent，直接给你 Web 控制台、内置终端对话，以及微信 / 飞书 / Telegram / WhatsApp 四个聊天通道。
 
-安装 APK 后，只需跟着页面引导，一步一步操作：
+> 一切跑在你自己的设备上，不需要云服务器，不需要 SSH 隧道，不敲一行命令。
 
-1. **自动安装 ubuntu** — 无需手动下载配置
-2. **自动部署 Hermes Agent** — 在 ubuntu 中完成全部安装
-3. **自动恢复预配置** — 开箱即用，初始化配置一键还原
+![应用截图](./c.jpg)
+![应用截图](./d.jpg)
 
-> 全程图形化引导，不需要任何命令行或技术基础。
-![应用截图](./a.jpg)
-![应用截图](./b.jpg)
-内置 **gemini-3.6-flash** 无限量调用，**新用户免费试用 3 天**。同时预置了对接微信的 Skill（`/weixin-login`），一条指令即可完成微信登录绑定。
+## 为什么选我们
 
+- **无需 root**：Ubuntu 跑在 App 私有目录的 proot 沙箱里，不改动手机系统。
+- **一键安装**：自动下载环境包、部署 Hermes Agent、恢复预设配置并启动网关，全程跟着提示点即可。
+- **真 Agent，不是聊天壳**：完整 Ubuntu 环境、TUI 终端对话、工具、技能、会话与记忆。
+- **浏览器控制台**：9119 端口的 Web Dashboard，手机本地或局域网内都能管理配置、模型和对话。
+- **在你常用的 App 里聊天**：内置微信 / 飞书 / Telegram / WhatsApp 通道配置，微信用 `/weixin-login` 一条命令绑定。
+- **后台常驻**：前台服务 + WakeLock + 看门狗，网关在后台持续运行。
+- **开箱可用的模型**：预置一套默认提供商，也可换任意 OpenAI 兼容接口；官网提供免费 API Key 申请指引。
+- **为普通人设计**：14 种语言、国内/国际双版本、全程中文引导。
 
-## 📱 使用流程
+## 安装后你会得到什么
 
-下载 APK → 安装 → 打开 APP → 按步骤点击 → 完成 🎉
+1. App 自动下载 Ubuntu rootfs 与 Hermes 备份包。
+2. 部署 Hermes Agent、恢复预设配置与技能，启动 `hermes gateway` + `hermes dashboard`。
+3. 打开 Web 控制台或内置对话即可使用，不需要任何终端操作。
 
-## 💰 价格
+## 快速开始
 
-试用期结束后需订阅或者浏览广告才能继续使用：
+1. 到 [Releases](../../releases) 下载最新 APK。
+2. 允许「安装未知来源应用」。
+3. 打开 App，按提示完成安装。
+4. 新用户享 **3 天免费试用**。
 
-- **国内用户**：月租 ¥10，前往 [hanhanhu.cn](http://hanhanhu.cn) 购买，支持支付宝、微信支付，付款后获取注册码
-- **海外用户**：请前往 Google Play 商店下载订阅
+## 价格与解锁
 
-## 🔧 系统要求
+- **国内版**：[hanhanhu.cn](http://hanhanhu.cn) ¥10/月，支持微信 / 支付宝，付款后获得激活码，在 App 内填写即可。
+- **国际版**：通过 [Google Play](https://play.google.com/store/apps/details?id=com.hermes.installer) 订阅，也可看激励广告解锁全天无广告。
+- 试用结束后国际版可继续免费使用（带广告），国内版使用激活码解锁。
+- 没有模型 Key？看[免费 API Key 申请指引](https://hanhanhu.cn/free-api.html)，也支持填入自己的服务商。
 
-- Android 8.0 及以上
-- 存储空间 ≥ 2GB（建议）
-- 网络连接（安装过程需要下载依赖）
+## 运行环境
 
-## 🚀 快速开始
-
-1. 前往 [Releases](../../releases) 下载最新 APK
-2. 允许"安装未知来源应用"
-3. 打开 APP，跟随引导完成部署，可享 3 天免费试用
+- Android 8.0 及以上（API 26），arm64-v8a
+- 约 3 GB 可用存储（安装需下载 410–470 MB，装好后占用约 1.8–2.9 GB）
+- 联网：首次下载、授权校验和模型调用需要网络
